@@ -55,6 +55,23 @@ export const PROJECTS: Project[] = [
     githubPrivate: true,
   },
   {
+    title: 'Arka Finance',
+    description: 'Dashboard fintech de finanzas personales inspirado en "El Hombre Más Rico de Babilonia". Permite gestionar ingresos, gastos, presupuestos y objetivos financieros con análisis en tiempo real.',
+    image: 'assets/images/project-arka.png',
+    technologies: [
+      'Next.js 14',
+      'TypeScript',
+      'Firebase',
+      'Firestore',
+      'TailwindCSS',
+      'Zustand',
+      'Recharts'
+    ],
+    demoUrl: 'https://arka-finance-app.vercel.app/',
+    githubUrl: null,
+    githubPrivate: true,
+  },
+  {
     title: 'FunkoVerse – E-commerce de Funkos',
     description: 'E-commerce especializado en Funko Pops con catálogo dinámico, carrito de compras, autenticación de usuarios y panel administrativo para gestión de productos y pedidos. Incluye simulación de pasarela de pago y almacenamiento en Firebase.',
     image: 'assets/images/project-funko.png',
