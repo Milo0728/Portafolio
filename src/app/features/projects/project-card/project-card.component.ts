@@ -6,7 +6,7 @@ import { LanguageService } from '../../../core/services/language.service';
   selector: 'app-project-card',
   standalone: true,
   template: `
-    <div class="border border-neutral-800 hover:border-indigo-500/40 transition-colors duration-300 flex flex-col">
+    <div class="h-full border border-neutral-800 hover:border-indigo-500/40 transition-colors duration-300 flex flex-col">
 
       <!-- Image -->
       <div class="overflow-hidden bg-neutral-900 aspect-video">
@@ -20,11 +20,11 @@ import { LanguageService } from '../../../core/services/language.service';
       </div>
 
       <!-- Content -->
-      <div class="p-6 flex flex-col flex-1">
+      <div class="p-5 sm:p-6 flex flex-col flex-1">
 
-        <h3 class="text-white font-bold text-lg mb-3">{{ project.title }}</h3>
+        <h3 class="text-white font-bold text-base sm:text-lg mb-3 line-clamp-2">{{ project.title }}</h3>
 
-        <p class="text-neutral-400 text-sm leading-relaxed mb-5">{{ project.description }}</p>
+        <p class="text-neutral-400 text-sm leading-relaxed mb-5 line-clamp-4">{{ project.description }}</p>
 
         <!-- Technologies -->
         <div class="flex flex-wrap gap-2 mb-6">

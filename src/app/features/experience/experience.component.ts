@@ -8,9 +8,9 @@ import { LanguageService } from '../../core/services/language.service';
   standalone: true,
   imports: [ExperienceItemComponent],
   template: `
-    <section id="experience" class="min-h-screen px-12 lg:px-20 py-24">
+    <section id="experience" class="min-h-screen px-6 sm:px-12 lg:px-20 py-16 sm:py-24">
 
-      <h2 class="text-white font-black uppercase text-4xl mb-16 tracking-tight">
+      <h2 class="text-white font-black uppercase text-3xl sm:text-4xl mb-10 sm:mb-16 tracking-tight">
         {{ t()['section.experience'] }}
       </h2>
 

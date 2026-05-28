@@ -7,16 +7,16 @@ import { ThemeService } from '../../core/services/theme.service';
   standalone: true,
   template: `
     <footer
-      class="border-t px-12 lg:px-20 py-16"
+      class="border-t px-6 sm:px-12 lg:px-20 py-12 sm:py-16"
       [class]="isDark() ? 'border-neutral-800' : 'border-neutral-200'"
     >
 
       <!-- Top row -->
-      <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-8 mb-12">
+      <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6 sm:gap-8 mb-10 sm:mb-12">
 
         <!-- Identity -->
         <div>
-          <p class="text-white font-black text-2xl tracking-tight mb-1">
+          <p class="text-white font-black text-xl sm:text-2xl tracking-tight mb-1 break-words">
             Juan Camilo Rodríguez Caicedo
           </p>
           <p class="text-neutral-400 text-sm">{{ t()['footer.role'] }}</p>

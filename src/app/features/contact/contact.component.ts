@@ -8,17 +8,17 @@ import { ThemeService } from '../../core/services/theme.service';
   standalone: true,
   imports: [FormsModule],
   template: `
-    <section id="contact" class="min-h-screen px-12 lg:px-20 py-24">
+    <section id="contact" class="min-h-screen px-6 sm:px-12 lg:px-20 py-16 sm:py-24">
 
-      <h2 class="text-white font-black uppercase text-4xl mb-4 tracking-tight">
+      <h2 class="text-white font-black uppercase text-3xl sm:text-4xl mb-4 tracking-tight">
         {{ t()['section.contact'] }}
       </h2>
 
-      <p class="text-neutral-400 text-sm mb-16 max-w-sm">
+      <p class="text-neutral-400 text-sm mb-10 sm:mb-16 max-w-sm">
         {{ t()['contact.subtitle'] }}
       </p>
 
-      <div class="grid grid-cols-1 lg:grid-cols-5 gap-16">
+      <div class="grid grid-cols-1 lg:grid-cols-5 gap-10 sm:gap-16">
 
         <!-- ── Contact info ──────────────────── -->
         <div class="lg:col-span-2 flex flex-col gap-8">

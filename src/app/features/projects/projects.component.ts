@@ -8,13 +8,13 @@ import { LanguageService } from '../../core/services/language.service';
   standalone: true,
   imports: [ProjectCardComponent],
   template: `
-    <section id="projects" class="min-h-screen px-12 lg:px-20 py-24">
+    <section id="projects" class="min-h-screen px-6 sm:px-12 lg:px-20 py-16 sm:py-24">
 
-      <h2 class="text-white font-black uppercase text-4xl mb-16 tracking-tight">
+      <h2 class="text-white font-black uppercase text-3xl sm:text-4xl mb-10 sm:mb-16 tracking-tight">
         {{ t()['section.projects'] }}
       </h2>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 items-stretch">
         @for (project of projects; track project.title) {
           <app-project-card [project]="project" />
         }

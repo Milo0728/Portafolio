@@ -11,13 +11,14 @@ import { ThemeService }       from '../../core/services/theme.service';
     <section id="hero" class="grid grid-cols-1 md:grid-cols-2 min-h-screen">
 
       <!-- Left: Text -->
-      <div class="flex flex-col justify-center px-12 lg:px-20 py-32">
+      <div class="flex flex-col justify-center px-6 sm:px-12 lg:px-20 pt-28 pb-16 sm:py-32">
 
-        <h1 class="text-5xl sm:text-6xl lg:text-7xl font-black uppercase leading-none tracking-tighter text-white mb-4">
-          Juan Camilo<br>Rodríguez Caicedo
+        <h1 class="text-4xl sm:text-5xl md:text-5xl lg:text-7xl font-black uppercase leading-none tracking-tighter text-white mb-4 break-words">
+          <span class="block">Juan Camilo</span>
+          <span class="block">Rodríguez Caicedo</span>
         </h1>
 
-        <h2 class="text-xl lg:text-2xl font-light text-white mb-6">
+        <h2 class="text-lg sm:text-xl lg:text-2xl font-light text-white mb-6">
           {{ t()['hero.role'] }}
         </h2>
 

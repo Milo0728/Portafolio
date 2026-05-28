@@ -15,7 +15,7 @@ import { LanguageService } from '../../core/services/language.service';
   standalone: true,
   template: `
     <header [class]="headerClass()">
-      <nav class="flex items-center justify-between px-8 lg:px-16 h-16 max-w-screen-2xl mx-auto">
+      <nav class="flex items-center justify-between px-4 sm:px-8 lg:px-16 h-16 max-w-screen-2xl mx-auto">
 
         <!-- Logo -->
         <button (click)="scrollTo('hero')" [class]="logoClass()">JR</button>
@@ -97,7 +97,7 @@ import { LanguageService } from '../../core/services/language.service';
 
       <!-- Mobile menu -->
       @if (menuOpen()) {
-        <div class="nav-menu-enter md:hidden border-t px-8 py-6 flex flex-col gap-5"
+        <div class="nav-menu-enter md:hidden border-t px-4 sm:px-8 py-6 flex flex-col gap-5"
              [class]="mobileMenuClass()">
           @for (link of navLinks(); track link.section) {
             <button (click)="scrollTo(link.section)" [class]="mobileLinkClass(link.section)">

@@ -5,7 +5,7 @@ import { Skill } from '../../../core/models/portfolio.model';
   selector: 'app-skill-badge',
   standalone: true,
   template: `
-    <div class="skill-badge group flex flex-col items-center gap-3 p-5 border border-neutral-800 hover:border-indigo-500/40 hover:bg-indigo-500/5 transition-all duration-200 cursor-default">
+    <div class="skill-badge group flex flex-col items-center gap-2 sm:gap-3 p-3 sm:p-5 border border-neutral-800 hover:border-indigo-500/40 hover:bg-indigo-500/5 transition-all duration-200 cursor-default">
 
       <div class="w-9 h-9 flex items-center justify-center">
         <img
