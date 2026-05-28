@@ -55,6 +55,15 @@ export const PROJECTS: Project[] = [
     githubPrivate: true,
   },
   {
+    title: 'App de Gestión de Membresías',
+    description: 'Panel administrativo para la gestión de clientes, líderes/patrocinadores y paquetes de membresía. Incluye CRUD completo, cálculo automático de vencimientos por paquete, historial de auditoría con purga automática y autenticación con control de acceso por roles.',
+    image: 'assets/images/project-avm.png',
+    technologies: ['Angular 21', 'TypeScript', 'Supabase', 'PostgreSQL', 'TailwindCSS'],
+    demoUrl: 'https://clientes-abundant.netlify.app/auth/login',
+    githubUrl: null,
+    githubPrivate: true,
+  },
+  {
     title: 'Arka Finance',
     description: 'Dashboard fintech de finanzas personales inspirado en "El Hombre Más Rico de Babilonia". Permite gestionar ingresos, gastos, presupuestos y objetivos financieros con análisis en tiempo real.',
     image: 'assets/images/project-arka.png',
